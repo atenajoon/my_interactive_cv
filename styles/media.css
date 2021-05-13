@@ -1,0 +1,32 @@
+/*  responsive style for different devices  */
+@media only screen and (max-width: 767px) {
+    .h1 {
+        padding-bottom: 20px;
+        color: var(--orange);
+        border-bottom: 1px solid var(--orange);
+        display: inline-block;
+        font-size: 46px;
+    }
+    .h2 {
+        font-size: 54px;
+        text-align: center;
+    }
+    .container {
+        padding: 20px;
+        min-width: 280px;
+    }
+    .lead {
+        display: none;
+    }
+}
+
+
+
+/* Small devices (mobiles, up to 767px) */
+
+/* Large devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 1100px and up) */
+
+/* X-Large devices (X-laptops/desktops, 1281px and up) */
+
