@@ -71,3 +71,54 @@ hr {
 small {
     color: var(--yellow);
 }
+
+/* -- general classes and ids */
+.container {
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+    max-width: 100%;
+}
+.bkg-dark  {
+    color: var(--gray-light);
+}
+.bkg-dark >h2 {
+    color: var(--white);
+}
+.bkg-dark >div>ul>li>a {
+    color: var(--white);
+}
+.bkg-dark >hr {
+    margin: 40px 0px;
+    opacity: 0.2;
+    border: 0; 
+    height: 1px;
+    width: auto; 
+    background-image: -webkit-linear-gradient(left, #e7d599,#FFFFFF, #e9ddb4);
+    background-image: -moz-linear-gradient(left, #e7d599,#FFFFFF, #e7d599);
+    background-image: -ms-linear-gradient(left, #e7d599,#FFFFFF, #e7d599);
+    background-image: -o-linear-gradient(left, #e7d599,#FFFFFF, #e7d599); 
+}
+.lead {
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+p.lead {
+    text-align: center;
+    color: var(--gray-lead);
+}
+/* to test */
+.bkg-dark {
+    background-color: var(--coal);
+}
+
+
+/* 
+-- header
+-- Navbar
+-- sections
+-- profile image
+*/
