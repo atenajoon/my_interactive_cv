@@ -45,6 +45,18 @@
     .section-1 > div {
         margin-top: 60px;
     }
+    #profile-content>div>h3  {
+        text-align: center;
+    }
+    .fa {
+        font-size: 50px;
+        padding: 0;
+        border: none;
+        transition: color 0.3s;
+    }
+    .fa:hover {
+        color: var(--blue-light);
+    }
 }
 
 
