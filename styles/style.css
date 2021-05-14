@@ -129,10 +129,66 @@ header {
     margin-top: 15%;
     margin-left: 17%;
 }
+.scroll-down {
+    background-color: var(--black);
+    height: 80px;
+    width: 110px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    text-align: center;
+}
+.scroll-down .glyphicon {
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-right: 2px;
+    padding-top: 20px;
+    animation-name: wiggle;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes wiggle {
+    0% {
+        padding-top: 20px;
+    }
+    50% {
+        padding-top: 28px;
+    }
+    100% {
+        padding-top: 20px;
+    }
+}
+.glyphicon {
+    display: inline-block;
+    line-height: 1;
+}
+
+/* -- Navbar */
+.navbar {
+    background-color: var(--black);
+    z-index: 999;
+}
+.navbar li a {
+    display: block;
+    height: 40px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+.navbar .active a {
+    background:var(--blue-dark);
+}
+
+
 
 
 /* 
--- Navbar
 -- sections
 -- profile image
 */

@@ -18,6 +18,10 @@
     .lead {
         display: none;
     }
+    header .scroll-down {
+        width: 100%;
+        right: 0px;
+    }
 }
 
 
