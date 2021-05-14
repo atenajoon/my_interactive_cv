@@ -22,6 +22,29 @@
         width: 100%;
         right: 0px;
     }
+    .navbar {
+        width: 100%;
+        left: 0;
+    }
+    .nav {
+        display: flex;
+    }
+    .navbar .nav li {
+    width: calc(100% / 4);
+    }
+    /* toggle between sticky and navbar2 with js */
+    .navbar2 {
+        position: absolute;
+        right: 5%;
+        bottom: -80px;
+    }
+    .sticky {
+        position: fixed;
+        top: 0px;
+    }
+    .section-1 > div {
+        margin-top: 60px;
+    }
 }
 
 
