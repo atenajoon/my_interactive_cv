@@ -57,6 +57,13 @@
     .fa:hover {
         color: var(--blue-light);
     }
+    .tab-content {
+        margin-left: 10px;
+        text-decoration: none;
+    }
+    .experienceTabs {
+        height: 600px;
+    }
 }
 
 

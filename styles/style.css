@@ -1,4 +1,5 @@
 @import url("./media.css");
+@import url("./tabs.css");
 
 /* 
 -- variables
@@ -221,6 +222,20 @@ header {
     transform: scale(1.1);
 }
 
+/* -- section-3 -- */
+.section-3 > div > p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--coal);
+    text-align: left;
+}
+.section-3 span {
+    color: var(--orange);
+}
+.experience p {
+    color: var(--gray-light);
+    text-align: left;
+}
 
 /* 
 

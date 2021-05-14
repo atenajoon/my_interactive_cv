@@ -1,0 +1,25 @@
+/* tabs for Skills and Experience of section-2 & section-3 */
+
+.tabs {
+    width: auto;
+    overflow: hidden;
+}
+.tab-header > div {
+    width: 100%;
+    height: calc(100% / 5);
+    text-indent: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid var(--gray-lead);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.tab-header > div.active {
+    border-left: 3px solid var(--blue-light);
+    transition: color 0.7s;
+    transition: border-left 0.4s;
+    transition: font-size 0.4s;
+}
