@@ -23,3 +23,55 @@
     transition: border-left 0.4s;
     transition: font-size 0.4s;
 }
+.tab-content {
+    margin: 20px;
+    flex: 1;
+    padding: 20px 30;
+    position: relative;
+}
+.tab-content > div {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0s;
+}
+.tab-content > div.active {
+    position: absolute;
+    left: 20px;
+    opacity: 1;
+    transition: opacity 0.7s 0.1s;
+}
+.tab-content h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--coal);
+}
+.tab-content ul {
+    text-align: left;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tab-content ul li::before {
+    color: var(--yellow);
+    margin-right: 20px;
+    font-weight: bold;
+    content: ">";
+}
+.experience {
+    background: var(--bkg-beige);
+    color: var(--gray-lead);
+}
+.experience > div.active {   
+    color: var(--blue-light);;
+    background: var(--bkg-beige);
+}
+.experienceTabs {
+    margin-top: 30px;
+    height: fit-content;
+}
+.experienceTabs > .tab-content .active {
+    display: contents;
+}
+
