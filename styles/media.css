@@ -125,7 +125,22 @@
         top: 80px;
         right: 5%;
     }
-
+    #profile-content p {
+        text-align: left;
+    }
+    .icon {
+        font-size: 40px;
+        padding: 0px 20px;
+        border: 1px solid var(--white);
+        border-radius: 8%;
+        transition: border-color 0.1s;
+    }
+    .icon:hover {
+        border-color: var(--blue-light);
+    }
+    .wrapper {
+        height: 400px;
+    }
 } 
 /* Large devices (laptops/desktops, 1100px and up) */
 
