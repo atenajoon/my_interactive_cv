@@ -78,7 +78,43 @@
 
 
 /* Large devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .h1 {
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        font-size: 63px;
+        line-height: 1.1;
+    }
+    .h2 {
+        font-size: 54px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .h3 {
+        font-size: 28px;
+        text-align: left;
+    }
+    .container {
+        padding: 40px 180px;
+        max-width: 1280px;
+    }
+    .lead {
+        font-size: 21px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }  
+    header .container p {
+        font-size: 28px;
+        margin-top: 30px;
+        padding-top: 10px;
+        border-top: 1px solid var(--orange);
+    }
+    .text-container {
+        margin-top: 5%;
+    }
 
+
+} 
 /* Large devices (laptops/desktops, 1100px and up) */
 
 /* X-Large devices (X-laptops/desktops, 1281px and up) */
