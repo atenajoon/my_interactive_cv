@@ -26,6 +26,18 @@
     --font: 'Open Sans', sans-serif !important;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--blue-dark);
+    border-radius: 3px;
+}
+::selection {
+    color: var(--white);
+    background: var(--blue-dark);
+}
+
 /*  -- general elements --  */
 body {
     font-size: 18px;
