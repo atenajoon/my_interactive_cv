@@ -111,10 +111,6 @@ p.lead {
     text-align: center;
     color: var(--gray-lead);
 }
-/* to test */
-.bkg-dark {
-    background-color: var(--coal);
-}
 
 /* -- header */
 header {
@@ -237,7 +233,22 @@ header {
     text-align: left;
 }
 
+/* -- section-2,-4 -- */
+.section-2, .section-4 {
+    background: var(--coal);
+}
+.media {
+    position: absolute;
+    left: 50%;
+    transform: translate(-53%, -50%);
+    margin-top: 50px;
+}
+.icon {
+    margin: 10px 10px;
+    display: inline-block;
+    color: var(--white);
+}
 /* 
 
--- profile image
+-- section 2,4
 */
