@@ -132,11 +132,15 @@ header {
     -o-background-size: cover;
     background-size: cover;
 }
+header > div {
+    display: flex;
+    justify-content: center;
+}
 .text-container {
     max-width: 960px;
     position: absolute;
-    margin-top: 15%;
-    margin-left: 17%;
+    /* margin-top: 15%;
+    margin-left: 17%; */
 }
 .scroll-down {
     background-color: var(--black);
@@ -260,7 +264,3 @@ header {
     display: inline-block;
     color: var(--white);
 }
-/* 
-
--- section 2,4
-*/
