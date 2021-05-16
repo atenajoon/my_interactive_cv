@@ -1,4 +1,6 @@
 /*  responsive style for different devices  */
+
+/* Small devices (mobiles, up to 767px) */
 @media only screen and (max-width: 767px) {
     .h1 {
         padding-bottom: 20px;
@@ -74,9 +76,6 @@
     }
 }
 
-
-
-/* Small devices (mobiles, up to 767px) */
 
 /* Large devices (landscape tablets, 768px and up) */
 
