@@ -162,7 +162,16 @@
     .tab-content {
         margin-left: 60px;
     }
-
 }
-/* X-Large devices (X-laptops/desktops, 1281px and up) */
 
+/* X-Large devices (X-laptops/desktops, 1281px and up) */
+@media only screen and (min-width: 1281px) {
+    .container {
+        padding: 40px 300px;
+    }
+    .tab-content {
+        margin-left: 120px;
+    }
+}
+
+/*  End  */
