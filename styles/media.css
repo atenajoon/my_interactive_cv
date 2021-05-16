@@ -142,7 +142,27 @@
         height: 400px;
     }
 } 
-/* Large devices (laptops/desktops, 1100px and up) */
 
+/* Large devices (laptops/desktops, 1100px and up) */
+@media only screen and (min-width: 1100px) {
+    .col-3 {
+        float: left;
+        width: 30%;
+    }
+    #profile-content:after {
+        clear: both;
+        content: "";
+        display: block;
+        }
+    #profile-content div:nth-child(2) { 
+        margin: 70px 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    .tab-content {
+        margin-left: 60px;
+    }
+
+}
 /* X-Large devices (X-laptops/desktops, 1281px and up) */
 

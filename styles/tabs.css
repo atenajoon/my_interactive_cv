@@ -24,9 +24,8 @@
     transition: font-size 0.4s;
 }
 .tab-content {
-    margin: 20px;
     flex: 1;
-    padding: 20px 30;
+    padding: 15px 0;
     position: relative;
 }
 .tab-content > div {
