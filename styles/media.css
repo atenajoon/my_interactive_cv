@@ -112,7 +112,19 @@
     .text-container {
         margin-top: 5%;
     }
-
+    .navbar {
+        width: 110px;
+    }
+    /* toggle between sticky and navbar2 classes with js */
+    .navbar2 {
+        position: absolute;
+        right: 5%;
+    }
+    .sticky {
+        position: fixed;
+        top: 80px;
+        right: 5%;
+    }
 
 } 
 /* Large devices (laptops/desktops, 1100px and up) */
