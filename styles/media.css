@@ -4,8 +4,9 @@
 @media only screen and (max-width: 767px) {
     .h1 {
         padding-bottom: 20px;
-        color: var(--orange);
-        border-bottom: 1px solid var(--orange);
+        color: var(--black);
+        text-shadow: -3px 2px 3px #fff;
+        border-bottom: 1px solid var(--pink-dark);
         display: inline-block;
         font-size: 46px;
     }
@@ -80,6 +81,8 @@
 /* Large devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .h1 {
+        color: var(--black);
+        text-shadow: -3px 2px 3px #fff;
         padding-bottom: 20px;
         margin-bottom: 10px;
         font-size: 63px;
@@ -107,7 +110,7 @@
         font-size: 28px;
         margin-top: 30px;
         padding-top: 10px;
-        border-top: 1px solid var(--orange);
+        border-top: 1px solid var(--pink-light);
     }
     .text-container {
         margin-top: 5%;

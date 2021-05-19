@@ -15,9 +15,9 @@
 :root {
     --blue-light: #23b6b1;
     --blue-dark: #22A39F;
-    --orange: #f17d1e;
-    --yellow: #f1ca1e;
-    --bkg-beige:  #F3EFE0;
+    --pink-light:  hsl(348deg 95% 85%);
+    --pink-dark: hsl(348deg 100% 76%);
+    --bkg-beige:  #fdfbf3;
     --white: #FFFFFF;
     --gray-light: #727878;
     --coal: #434242;
@@ -82,7 +82,7 @@ hr {
     background-image: -o-linear-gradient(left, #f0f0f0, #d1d1d1, #f0f0f0); 
   }
 small {
-    color: var(--yellow);
+    color: var(--pink-light);
 }
 
 /* -- general classes and ids */
@@ -192,7 +192,7 @@ header > div {
     padding-bottom: 10px;
     line-height: 20px;
     font-weight: 600;
-    color: var(--white);
+    color: var(--bkg-beige);
 }
 .navbar .active a {
     background:var(--blue-dark);
@@ -242,7 +242,7 @@ header > div {
     text-align: left;
 }
 .section-3 span {
-    color: var(--orange);
+    color: var(--pink-dark);
 }
 .experience p {
     color: var(--gray-light);
