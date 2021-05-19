@@ -4,13 +4,15 @@ const navbar = document.getElementById("navbar");
 
 function navOnScroll() {
 
-    let offsetMob = window.pageYOffset;
-    let offset = window.pageYOffset + 80;
+    const MOBILE_OFFSET = window.pageYOffset;
+    const WINDOWS_OFFSET = window.pageYOffset + 80;
     let innerH = window.innerHeight;
+    let innerW = window.innerWidth;
 
+    let offset = innerW <= 767 ? MOBILE_OFFSET : WINDOWS_OFFSET;
+    console.log(offset);
 
-    //  making the navbar sticky on scroll
-    if (offsetMob >= innerH) {
+    if (offset >= innerH) {
         navbar.classList.remove("navbar2");
         navbar.classList.add("sticky");
     } else {
