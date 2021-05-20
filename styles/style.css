@@ -16,7 +16,7 @@
     --blue-light: #23b6b1;
     --blue-dark: #22A39F;
     --pink-light:  hsl(348deg 95% 85%);
-    --pink-dark: hsl(348deg 100% 76%);
+    --pink-dark: hsl(343deg 100% 66%);
     --bkg-beige:  #fdfbf3;
     --white: #FFFFFF;
     --gray-light: #727878;
@@ -54,7 +54,7 @@ html {
     scroll-behavior: smooth;
 }
 a {
-    color: var(--blue-dark);
+    color: var(--pink-dark);
     text-decoration: none;
 }
 h2, h3 {
@@ -211,7 +211,7 @@ header > div {
     transition: color 0.2s;
 }
 .section-1 .fa:hover {
-    color: var(--blue-dark);
+    color: var(--pink-dark);
 }
 
 /* -- profile image -- */
@@ -220,8 +220,6 @@ header > div {
     width: 100%;
     max-width: 246px;
     height: auto;
-    filter:sepia(100%);
-    transition: filter 0.6s;
     transition: transform 0.6s;
     border-width: 0.5px;
     border-color:var(--coal);
@@ -264,3 +262,5 @@ header > div {
     display: inline-block;
     color: var(--white);
 }
+
+/*  End  */
