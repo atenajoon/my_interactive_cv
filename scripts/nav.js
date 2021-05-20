@@ -3,6 +3,12 @@ window.onscroll = function() {navOnScroll();};
 const navbar = document.getElementById("navbar");
 
 let highlightSections = true;
+let scrollTimer = -1;
+
+function scrollFinished() {
+    highlightSections = true;
+    console.log("true");
+}
 
 function navOnScroll() {
 
@@ -50,6 +56,9 @@ function navOnScroll() {
             }
         }
     }
+
+    if(scrollTimer !== -1) {clearTimeout(scrollTimer);}
+    scrollTimer = window.setTimeout('scrollFinished()', 500);
 }
 
 
