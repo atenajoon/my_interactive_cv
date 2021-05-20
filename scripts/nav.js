@@ -2,6 +2,8 @@
 window.onscroll = function() {navOnScroll();};
 const navbar = document.getElementById("navbar");
 
+let highlightSections = true;
+
 function navOnScroll() {
 
     const MOBILE_OFFSET = window.pageYOffset;
@@ -30,12 +32,14 @@ function navOnScroll() {
     nav[2] = document.getElementById("nav-item-2");
     nav[3] = document.getElementById("nav-item-3");
     nav[4] = document.getElementById("nav-item-4");
-    
-    if (offset <= sec2) { activate(1); }
-    else if (offset <= sec3) { activate(2); }
-    else if (offset <= sec4) { activate(3); }
-    else { activate(4); }
-    
+   
+    if(highlightSections) {
+        if (offset <= sec2) { activate(1); }
+        else if (offset <= sec3) { activate(2); }
+        else if (offset <= sec4) { activate(3); }
+        else { activate(4); }
+        console.log("ture");
+    }
     
     function activate(navItem) {
         for(i = 1; i <= 4; i++) {
@@ -57,5 +61,7 @@ for(let i=0; i<myNav.length; i++) {
     myNav[i].addEventListener("click", function() {
         document.querySelector(".nav > .active").classList.remove("active");
         myNav[i].classList.add("active");
+        highlightSections = false;
+        console.log("false");
     })
 }
