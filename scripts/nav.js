@@ -7,7 +7,7 @@ let scrollTimer = -1;
 
 function scrollFinished() {
     highlightSections = true;
-    console.log("true");
+    console.log("finished");
 }
 
 function navOnScroll() {
@@ -18,7 +18,7 @@ function navOnScroll() {
     let innerW = window.innerWidth;
 
     let offset = innerW <= 767 ? MOBILE_OFFSET : WINDOWS_OFFSET;
-    console.log(offset);
+    console.log("offset: ", offset);
 
     if (offset >= innerH) {
         navbar.classList.remove("navbar2");
@@ -29,20 +29,23 @@ function navOnScroll() {
     }
 
     // updating the nav activation on scroll
-    
-    let sec2 = document.getElementById("sec2").offsetTop - 200;
-    let sec3 = document.getElementById("sec3").offsetTop - 200;
-    let sec4 = document.getElementById("sec4").offsetTop - 450;
-    
+    const SECTION_COUNT = document.querySelectorAll("section");
+
+    sec = [];
+    for(var i = 2; i <= SECTION_COUNT.length; i++) { 
+        SECTION_LENGTHS = [ "none", 200, 200, 450 ];
+        sec[i] = document.getElementById("sec" + i).offsetTop - SECTION_LENGTHS[i-1]
+        console.log("sec" + i + ": ", sec[i]);
+    }
+
     let nav=[];
     for(let i=1; i<=4; i++) { nav[i] = document.getElementById("nav-item-"+i); }
    
     if(highlightSections) {
-        if (offset <= sec2) { activate(1); }
-        else if (offset <= sec3) { activate(2); }
-        else if (offset <= sec4) { activate(3); }
+        if (offset <= sec[2]) { activate(1); }
+        else if (offset <= sec[3]) { activate(2); }
+        else if (offset <= sec[4]) { activate(3); }
         else { activate(4); }
-        console.log("ture");
     }
     
     function activate(navItem) {
@@ -69,7 +72,6 @@ for(let i=0; i<myNav.length; i++) {
         document.querySelector(".nav > .active").classList.remove("active");
         myNav[i].classList.add("active");
         highlightSections = false;
-        console.log("false");
     })
 }
 
