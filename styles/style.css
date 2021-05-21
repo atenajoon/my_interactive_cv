@@ -15,7 +15,6 @@
 :root {
     --blue-light: #23b6b1;
     --blue-dark: #22A39F;
-    --pink-light:  hsl(348deg 95% 85%);
     --pink-dark: hsl(343deg 100% 66%);
     --bkg-beige:  #fdfbf3;
     --white: #FFFFFF;
@@ -82,7 +81,7 @@ hr {
     background-image: -o-linear-gradient(left, #f0f0f0, #d1d1d1, #f0f0f0); 
   }
 small {
-    color: var(--pink-light);
+    color: var(--pink-dark);
 }
 
 /* -- general classes and ids */
