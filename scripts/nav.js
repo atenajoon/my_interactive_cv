@@ -29,15 +29,13 @@ function navOnScroll() {
     }
 
     // updating the nav activation on scroll
+    
     let sec2 = document.getElementById("sec2").offsetTop - 200;
     let sec3 = document.getElementById("sec3").offsetTop - 200;
     let sec4 = document.getElementById("sec4").offsetTop - 450;
     
     let nav=[];
-    nav[1] = document.getElementById("nav-item-1");
-    nav[2] = document.getElementById("nav-item-2");
-    nav[3] = document.getElementById("nav-item-3");
-    nav[4] = document.getElementById("nav-item-4");
+    for(let i=1; i<=4; i++) { nav[i] = document.getElementById("nav-item-"+i); }
    
     if(highlightSections) {
         if (offset <= sec2) { activate(1); }
@@ -58,7 +56,7 @@ function navOnScroll() {
     }
 
     if(scrollTimer !== -1) {clearTimeout(scrollTimer);}
-    scrollTimer = window.setTimeout('scrollFinished()', 500);
+    scrollTimer = window.setTimeout('scrollFinished()', 300);
 }
 
 

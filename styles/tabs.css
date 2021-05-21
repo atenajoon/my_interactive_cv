@@ -53,7 +53,7 @@
     flex-direction: column;
 }
 .tab-content ul li::before {
-    color: var(--pink-dark);
+    color: var(--pink-light);
     margin-right: 20px;
     font-weight: bold;
     content: ">";
