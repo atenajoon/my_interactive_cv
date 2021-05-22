@@ -126,7 +126,7 @@ p.lead {
 
 /* -- header */
 header {
-    background: url(../images/background-M.jpg) no-repeat fixed;
+    background: url(../images/background-M.jpg) no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
