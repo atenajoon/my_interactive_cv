@@ -8,19 +8,19 @@
         text-shadow: -3px 2px 3px #fff;
         border-bottom: 1px solid var(--pink-dark);
         display: inline-block;
-        font-size: 46px;
+        font-size: 1.3em;
     }
     .h2 {
-        font-size: 54px;
+        font-size: 2.5em;
         text-align: center;
     }
     .h3 {
-        font-size: 26px;
+        font-size: 1.6em;
         font-weight: 300;
         text-align: left;
     }
     .container {
-        padding: 20px;
+        padding: 8px 20px;
         min-width: 280px;
     }
     .lead {
@@ -29,6 +29,9 @@
     header .scroll-down {
         width: 100%;
         right: 0px;
+    }
+    .scroll-down .glyphicon {
+        font-size: 1.2em;
     }
     .navbar {
         width: 100%;
@@ -53,11 +56,14 @@
     .section-1 > div {
         margin-top: 60px;
     }
+    .section-1 img {
+        max-width: 50%;
+    }
     #profile-content>div>h3  {
         text-align: center;
     }
     .fa {
-        font-size: 50px;
+        font-size: 2.3em;
         padding: 0;
         border: none;
         transition: color 0.3s;
@@ -85,35 +91,32 @@
         text-shadow: -3px 2px 3px #fff;
         padding-bottom: 20px;
         margin-bottom: 10px;
-        font-size: 63px;
+        font-size: 2em;
         line-height: 1.1;
     }
     .h2 {
-        font-size: 54px;
+        font-size: 3em;
         text-align: center;
         margin-top: 0;
     }
     .h3 {
-        font-size: 28px;
         text-align: left;
     }
     .container {
         padding: 40px 180px;
         max-width: 1280px;
     }
-    .lead {
-        font-size: 21px;
-        line-height: 1.4;
-        margin-bottom: 20px;
-    }  
     header .container p {
-        font-size: 28px;
+        font-size: 2.1em;
         margin-top: 30px;
         padding-top: 10px;
         border-top: 1px solid var(--pink-dark);
     }
     .text-container {
         margin-top: 5%;
+    }
+    .scroll-down .glyphicon {
+        font-size: 1.5em;
     }
     .navbar {
         width: 110px;
@@ -128,11 +131,14 @@
         top: 80px;
         right: 5%;
     }
+    .section-1 img {
+        max-width: 50%;
+    }
     #profile-content p {
         text-align: left;
     }
     .icon {
-        font-size: 40px;
+        font-size: 2.2em;
         padding: 0px 20px;
         border: 1px solid var(--white);
         border-radius: 8%;
@@ -151,6 +157,9 @@
     .col-3 {
         float: left;
         width: 30%;
+    }
+    .section-1 img {
+        max-width: 100%;
     }
     #profile-content:after {
         clear: both;

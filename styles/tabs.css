@@ -9,7 +9,7 @@
     height: calc(100% / 5);
     text-indent: 20px;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.85em;
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -72,10 +72,8 @@
     color: var(--blue-light) !important;
     margin-top: -10px;
     padding: 10px 0 10px 0;
-    white-space: nowrap;
 }
 .skillTabs {
-    margin-top: 60px;
     height: 350px;
     display: flex;
 }
