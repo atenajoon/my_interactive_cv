@@ -138,6 +138,7 @@ header > div {
 .text-container {
     max-width: 960px;
     position: absolute;
+    padding: 15% 20%;
     /* margin-top: 15%;
     margin-left: 17%; */
 }
@@ -228,6 +229,9 @@ header > div {
     filter:sepia(0%);
     border-color: var(--bkg-beige);
     transform: scale(1.1);
+}
+.section-1 h2 {
+    padding-top: 1em;
 }
 
 /* -- section-3 -- */
