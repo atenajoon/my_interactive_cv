@@ -1,4 +1,3 @@
-
 window.onscroll = function() {navOnScroll();};
 const navbar = document.getElementById("navbar");
 
@@ -35,9 +34,11 @@ function navOnScroll() {
     let nav=[];
     for(let i=1; i<=4; i++) { nav[i] = document.getElementById("nav-item-"+i); }
     
+    
     if(highlightSections) {
         sec = [];
-        SECTION_LENGTHS = [ "none", 200, 200, 450 ];
+        SECTION_LENGTHS = [ null, 200, 200, 450 ];
+        
         for(var i = 2; i <= SECTION_COUNT.length; i++) { 
             sec[i] = document.getElementById("sec" + i).offsetTop - SECTION_LENGTHS[i-1];
         }
