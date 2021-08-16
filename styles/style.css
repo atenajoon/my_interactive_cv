@@ -248,8 +248,11 @@ header > div {
 }
 
 /* -- section-2,-4 -- */
-.section-2, .section-4 {
+.section-2 , .section-4{
     background: var(--coal);
+}
+
+.section-4 {
     height: 100%;
     padding: 0 0.5em;
 }
