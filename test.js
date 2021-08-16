@@ -2,15 +2,17 @@
 
 
 // updating the nav activation on scroll
-    const SECTION_COUNT = document.querySelectorAll("section");
-
+    const NAV_SECTION_COUNT = document.querySelectorAll("section");
+    const SECTION_LENGTHS = [ 200, 200, 450, null ];
+    sec = [];
+    
     
     let nav=[];
-    for(let i=1; i<=4; i++) { nav[i] = document.getElementById("nav-item-"+i); }
+    for(let i=1; i<=NAV_SECTION_COUNT.length; i++) { 
+        nav[i] = document.getElementById("nav-item-"+i); 
+    }
     
     if(highlightSections) {
-        sec = [];
-        SECTION_LENGTHS = [ "none", 200, 200, 450 ];
         for(var i = 2; i <= SECTION_COUNT.length; i++) { 
             sec[i] = document.getElementById("sec" + i).offsetTop - SECTION_LENGTHS[i-1];
         }
