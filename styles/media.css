@@ -72,7 +72,9 @@
     text-align: center;
   }
   .section-3 {
-    margin: 2em 0;
+    text-align: center;
+    background: var(--bkg-beige);
+    height: min-content;
   }
   .tab-content {
     margin-left: 10px;

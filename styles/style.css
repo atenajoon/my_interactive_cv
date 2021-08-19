@@ -56,6 +56,12 @@ header {
 html {
   scroll-behavior: smooth;
 }
+/* html,
+body,
+header {
+  max-width: 100%;
+  overflow-x: hidden;
+} */
 a {
   color: var(--pink-dark);
   text-decoration: none;
@@ -89,13 +95,13 @@ small {
 }
 
 /* -- general classes and ids */
-.container {
+/* .container {
   position: relative;
   top: 10%;
   z-index: 4;
   text-align: center;
   max-width: 100%;
-}
+} */
 .bkg-dark {
   color: var(--gray-light);
 }
@@ -137,9 +143,10 @@ header > div {
   justify-content: center;
 }
 .text-container {
-  max-width: 960px;
+  text-align: center;
+  /* max-width: 960px;
   position: absolute;
-  padding: 15% 20%;
+  padding: 15% 20%; */
   /* margin-top: 15%;
     margin-left: 17%; */
 }
@@ -200,6 +207,7 @@ header > div {
 
 /*  --section-1--  */
 .section-1 {
+  text-align: center;
   background: var(--white);
   height: min-content;
 }
@@ -259,14 +267,11 @@ header > div {
 }
 
 .section-4 {
-  height: 100%;
   padding: 0 0.5em;
 }
 .media {
-  position: absolute;
-  left: 50%;
-  transform: translate(-53%, -50%);
-  margin-top: 8em;
+  display: flex;
+  justify-content: center;
 }
 
 /*  End  */
