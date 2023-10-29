@@ -14,10 +14,11 @@
     font-size: 2em;
     text-align: center;
   }
-  #sec2 .h3 {
-    text-align: center;
+  #sec2 .sublink {
+    text-align: left;
     color: var(--white);
   }
+
   #sec2 a:hover {
     color: crimson;
   }
@@ -74,6 +75,8 @@
   .section-3 {
     text-align: center;
     background: var(--bkg-beige);
+    height: -webkit-min-content;
+    height: -moz-min-content;
     height: min-content;
   }
   .tab-content {
@@ -190,7 +193,7 @@
   }
   #profile-content:after {
     clear: both;
-    content: "";
+    content: '';
     display: block;
   }
   #profile-content div:nth-child(2) {
