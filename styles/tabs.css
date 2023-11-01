@@ -52,6 +52,9 @@
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-around;
+  align-items: stretch;
 }
 .tab-content ul li::before {
   color: var(--pink-light);
@@ -59,7 +62,9 @@
   font-weight: bold;
   content: '>';
 }
-
+.tab-header {
+  margin-bottom: 1rem;
+}
 .skills {
   color: var(--gray-lead);
 }
@@ -79,7 +84,6 @@
   height: 400px;
   display: flex;
 }
-
 .experience {
   background: var(--bkg-beige);
   color: var(--gray-lead);
