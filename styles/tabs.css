@@ -92,6 +92,7 @@
   margin-top: 30px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
+  height: -ms-fit-content;
   height: fit-content;
 }
 .experienceTabs > .tab-content .active {

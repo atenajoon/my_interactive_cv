@@ -215,6 +215,7 @@ header {
   background: var(--white);
   height: -webkit-min-content;
   height: -moz-min-content;
+  height: -ms-min-content;
   height: min-content;
 }
 .section-1 .fa {
