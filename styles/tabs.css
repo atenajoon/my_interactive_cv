@@ -25,7 +25,7 @@
 }
 .tab-content {
   flex: 1;
-  padding: 15px 0;
+  padding: 0 0 15px;
   position: relative;
 }
 .tab-content > div {
@@ -76,7 +76,7 @@
   text-align: left;
 }
 .skillTabs {
-  height: 350px;
+  height: 400px;
   display: flex;
 }
 
