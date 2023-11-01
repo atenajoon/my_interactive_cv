@@ -122,9 +122,6 @@
     /* text-align: center; */
     color: var(--white);
   }
-  .sublink {
-    text-align: center;
-  }
   #sec2 a:hover {
     color: crimson;
   }

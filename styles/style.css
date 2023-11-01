@@ -259,6 +259,10 @@ header {
   padding-top: 1em;
 }
 
+.sublink {
+  text-align: center;
+  font-size: 1rem;
+}
 /* -- section-3 -- */
 .section-3 > div > p {
   color: var(--coal);
