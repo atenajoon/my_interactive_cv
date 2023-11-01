@@ -118,8 +118,11 @@
     text-align: left;
   }
   #sec2 .h3 {
-    text-align: center;
+    /* text-align: center; */
     color: var(--white);
+  }
+  .sublink {
+    text-align: center;
   }
   #sec2 a:hover {
     color: crimson;
