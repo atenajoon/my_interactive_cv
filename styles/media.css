@@ -55,7 +55,7 @@
   /* toggle between sticky and navbar2 with js */
   .navbar2 {
     position: absolute;
-    right: 5%;
+    right: 3%;
     bottom: -80px;
   }
   .sticky {
@@ -151,7 +151,7 @@
   /* toggle between sticky and navbar2 classes with js */
   .navbar2 {
     position: absolute;
-    right: 5%;
+    right: 3%;
   }
   .sticky {
     position: fixed;
