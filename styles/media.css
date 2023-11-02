@@ -55,7 +55,7 @@
   /* toggle between sticky and navbar2 with js */
   .navbar2 {
     position: absolute;
-    right: 5%;
+    right: 3%;
     bottom: -80px;
   }
   .sticky {
@@ -79,6 +79,9 @@
     height: -moz-min-content;
     height: -ms-min-content;
     height: min-content;
+  }
+  .tab-content ul {
+    padding-left: 25%;
   }
   .tab-content {
     margin-left: 10px;
@@ -151,7 +154,7 @@
   /* toggle between sticky and navbar2 classes with js */
   .navbar2 {
     position: absolute;
-    right: 5%;
+    right: 3%;
   }
   .sticky {
     position: fixed;
@@ -224,3 +227,4 @@
 }
 
 /*  End  */
+}
