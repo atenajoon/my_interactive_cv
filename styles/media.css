@@ -122,13 +122,13 @@
     /* text-align: center; */
     color: var(--white);
   }
-  .sublink {
-    text-align: center;
-  }
   #sec2 a:hover {
     color: crimson;
   }
-
+  .items-box {
+    height: 100px;
+    flex-wrap: wrap;
+  }
   .container {
     padding: 1em 9em;
     max-width: 1280px;

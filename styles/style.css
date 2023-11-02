@@ -141,11 +141,11 @@ header {
 .scroll-down {
   background-color: var(--black);
   height: 80px;
-  width: 110px;
+  width: 120px;
   display: block;
   position: absolute;
   bottom: 0px;
-  right: 5%;
+  right: 3%;
   text-align: center;
 }
 .scroll-down .glyphicon {
@@ -259,6 +259,10 @@ header {
   padding-top: 1em;
 }
 
+.sublink {
+  text-align: center;
+  font-size: 1rem;
+}
 /* -- section-3 -- */
 .section-3 > div > p {
   color: var(--coal);
