@@ -80,6 +80,9 @@
     height: -ms-min-content;
     height: min-content;
   }
+  .tab-content ul {
+    padding-left: 25%;
+  }
   .tab-content {
     margin-left: 10px;
     text-decoration: none;
@@ -224,3 +227,4 @@
 }
 
 /*  End  */
+}
