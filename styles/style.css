@@ -138,6 +138,23 @@ header {
   justify-content: center;
   align-items: center;
 }
+#gameIconText {
+  color: var(--pink-dark);
+}
+.gameIcon {
+  box-shadow: 5px 5px 2px lightgray;
+  border: 1px solid var(--white);
+  background-color: var(--pink-light);
+  /* background-color: var(--blue-light); */
+}
+.gameIcon:hover {
+  box-shadow: 5px 5px 2px lightgray;
+  background-color: var(--pink-dark);
+  border-color: var(--pink-dark);
+}
+.gameIcon a {
+  color: var(--white);
+}
 .scroll-down {
   background-color: var(--black);
   height: 80px;
@@ -233,6 +250,11 @@ header {
 .section-1 .my-cv {
   color: var(--pink-dark);
 } */
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .section-1 span {
   color: var(--gray-lead);
   padding-left: 10px;
